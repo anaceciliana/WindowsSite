@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsSite
 {
-    public partial class Form1 : Form
+    public partial class Cadastro : Form
     {
-        public Form1()
+        public Cadastro()
         {
             InitializeComponent();
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
