@@ -52,29 +52,38 @@
     <Compile Include="Cadastro.Designer.cs">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="promo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="promo.Designer.cs">
+      <DependentUpon>promo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicial.Designer.cs">
+      <DependentUpon>Inicial.cs</DependentUpon>
     </Compile>
     <Compile Include="PaginaCadastro.cs" />
-    <Compile Include="PgInicial.cs">
+    <Compile Include="reserva.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PgInicial.Designer.cs">
-      <DependentUpon>PgInicial.cs</DependentUpon>
+    <Compile Include="reserva.Designer.cs">
+      <DependentUpon>reserva.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="promo.resx">
+      <DependentUpon>promo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PgInicial.resx">
-      <DependentUpon>PgInicial.cs</DependentUpon>
+    <EmbeddedResource Include="Inicial.resx">
+      <DependentUpon>Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reserva.resx">
+      <DependentUpon>reserva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -155,6 +164,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\grocery-store.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reservadehotelcomofazerumbomgerenciamento.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reservadehotelcomofazerumbomgerenciamento_resized.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

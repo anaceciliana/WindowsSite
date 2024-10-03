@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsSite
 {
-    public partial class Form1 : Form
+    public partial class promo : Form
     {
-        public Form1()
+        public promo()
         {
             InitializeComponent();
         }
