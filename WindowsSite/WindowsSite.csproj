@@ -73,6 +73,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\MODEL\Cliente.cs" />
+    <Compile Include="Resources\MODEL\PropertyDAO.cs" />
     <EmbeddedResource Include="Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
@@ -177,5 +179,6 @@
   <ItemGroup>
     <None Include="Resources\Reservadehotelcomofazerumbomgerenciamento_resized.jpeg" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

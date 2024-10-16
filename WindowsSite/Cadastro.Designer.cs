@@ -204,6 +204,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Cadastro";
             this.Text = "V";
+            this.Load += new System.EventHandler(this.Cadastro_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

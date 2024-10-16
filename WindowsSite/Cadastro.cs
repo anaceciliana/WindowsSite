@@ -27,5 +27,10 @@ namespace WindowsSite
             MessageBox.Show(nameBox.Text + "\n"+ telBox.Text + "\n" + cpfBox.Text + "\n" + emailBox.Text + "\n" + endBox.Text + "\n" + "SEU CADASTRO FOI CONCLUÍDO COM SUCESSO!");
           
         }
+
+        private void Cadastro_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

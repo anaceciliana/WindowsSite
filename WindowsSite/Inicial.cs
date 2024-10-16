@@ -44,5 +44,10 @@ namespace WindowsSite
             reserva reserva = new reserva();
             reserva.ShowDialog();
         }
+
+        private void Inicial_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
